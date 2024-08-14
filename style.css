@@ -1,0 +1,23 @@
+.navegacion{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    display: contents;
+    
+}
+
+.contenedor{
+    background-color: bisque;
+    padding: 100px;
+    border: 1px solid black;
+    display: flex;
+}
+.Box{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    
+}
