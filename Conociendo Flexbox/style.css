@@ -1,0 +1,32 @@
+body{
+    background: beige;
+}
+
+.caja{
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 10px;
+}
+.flex-container{
+    background-color: rgb(206, 203, 203);
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    background-color: lightblue;
+    order: 3;
+}
+.c2{
+    background-color: lightcoral;
+    order: 2;
+}
+.c3{
+    background-color: lightcyan;
+    order: 1;
+}
