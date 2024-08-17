@@ -12,11 +12,31 @@ body{
     
 }
 .grid-layout{
-    width: 80%;
+    height: 650px;
     display: grid;
-    padding: 20px;
-    grid-template-columns: auto auto;
     background-color: lightgrey;
-    
     border: 1px solid black;
+   grid-template-areas: 'cabecera cabecera'
+                        ' contenido contenido'
+                        'footer footer' ;
+
+    grid-template-rows: 20% 10% auto 10%;
+}
+.c1{
+   grid-area: cabecera;
+    background-color: aqua;
+}
+.c2{
+   grid-area: menu;
+    background-color: blue;
+}
+.c3{
+    grid-area: contenido;
+}
+.c4{
+    grid-area: lateral;
+}
+.c5{
+    grid-area: footer;
+    background-color: beige;
 }
