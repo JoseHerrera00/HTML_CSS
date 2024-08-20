@@ -1,0 +1,25 @@
+
+
+/* BEM */
+
+.cards{
+   width: 400px;
+   padding: 10px;
+   margin: 10px auto;
+   box-shadow: 0px 0px 20px grey;
+   border: 1px solid black;
+   border-radius: 10px;
+   
+}
+.cards__card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.cards__link{
+    text-decoration: none;
+}
+.cards__link--rojo{
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
