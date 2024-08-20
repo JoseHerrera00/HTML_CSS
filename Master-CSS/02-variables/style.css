@@ -1,0 +1,9 @@
+
+:root{
+    --color-principal: red;
+    --fuentet: Verdana;
+}
+h1{
+    color: var(--color-principal);
+    font-family: var(--fuentet)
+}   
