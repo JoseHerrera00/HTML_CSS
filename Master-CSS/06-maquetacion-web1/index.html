@@ -1,12 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - principal</title>
+    <link rel="stylesheet" href="assets/fonts/Poppins/poppins.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <h1>Portafolio</h1>
+    <!--Layaut Contenido central-->
+    <div class="layout">
+        <aside class="layout__aside"> <!--Barra lateral - (info Users)-->
+
+            <section class="aside__user--info"> <!--Info General-->
+
+                <div class="user-info__container-img">
+                    <img class="user-info__img" src="./assets/img/articulo-1.jpg" alt="Imagen portafolio">
+                </div>
+
+                <h2 class="user-info__name">Nombre Completo</h2>
+                <h3 class="user-info__job">Profesion</h3>
+
+                <!--Menu navegacion-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="index.html">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="sobremi.html">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre Mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="estudios.html">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Estudios</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="portafolio.html">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="blog.html">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a class="menu__link" href="contacto.html">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    
+                </nav>
+
+                <!--Link-->
+
+                <div class="user-info__links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!--Boton-->
+                <div class="user-info__buttons">
+                    <a class="user-info__bnt" href="#">Descargar CV</a>
+                </div>
+
+
+                <!--fother-->
+                <footer class="user-info__footer">
+                    &copf; 2024 Nombre Responsable
+                </footer>
+
+            </section>
+
+        </aside>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page">
+                <h1 page_name>Nombre de la persona</h1>
+                <h2 class="page__job">Desarrollador</h2>
+            </section>
+
+        </main>
+
+    </div>
+
 </body>
+
 </html>
