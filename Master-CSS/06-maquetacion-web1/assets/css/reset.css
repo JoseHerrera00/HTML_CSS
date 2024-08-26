@@ -2,9 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    vertical-align: baseline;
-    
+    box-sizing: border-box;
 }
+*,
 *::before,
 *::after{
     box-sizing: border-box;
@@ -26,6 +26,7 @@ html{
     scroll-behavior: smooth;
 }
 a{
+    display: block;
     text-decoration: none;
 }
 
@@ -34,6 +35,7 @@ p a{
 }
 
 img, video, iframe, picture, figure{
+    max-width: 100%;
     display: block;
 }
 
@@ -41,4 +43,5 @@ form, input, select, textarea, button, label{
     display: block;
     font-family: inherit;
     font-size: inherit;
+    color: inherit;
 }
