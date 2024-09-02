@@ -1,7 +1,5 @@
-
-
 /* Definir varibales de colores*/
-:root{
+:root {
     --color-principal: FFFFFF;
     --color-secondary: #04B4E0;
 
@@ -15,26 +13,38 @@
 }
 
 /*Estilos generales*/
-html{
-    font-size: 10px; 
+html {
+    font-size: 10px;
 }
 
-body{
+body {
     width: 100%;
-    height: auto;
-    font-family: "poppins"; 
+    height: 100%;
+    font-family: "poppins";
     font-size: 1.5rem;
     color: var(--color-text);
     background-color: var(--color-background);
+    overflow: hidden;
+}
+body{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px -120px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color-tite);
 }
 
 /*Estilo Layout*/
 
-.layout{
+.layout {
     position: relative;
     min-width: 1290px;
     width: 75%;
@@ -50,7 +60,19 @@ h1, h2, h3, h4, h5, h6{
 
     border-radius: 4rem;
     box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
-    
+
 }
 
+/* Brra lateral Azul*/
 
+.layout__aside{
+    grid-area: aside;
+
+    border-radius: 4rem 0 0 4rem;
+    overflow: auto;
+}
+
+/* Contenido principal*/
+.layout__content{
+    grid-area: content;
+}
